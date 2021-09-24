@@ -32,6 +32,7 @@ app.get('/', (req, res) => {
         title:'home page'
     })
 })
+
 app.get('/contact', (req, res) => {
     res.render('contact.pug',{
         title:'contact page'
